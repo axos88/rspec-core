@@ -4,9 +4,9 @@ Feature: configure expectation framework
   desired outcomes. You can also configure RSpec to use:
 
   * rspec/expectations (explicitly)
-  * test/unit assertions in ruby 1.8
-  * minitest assertions in ruby 1.9
-  * rspec/expectations _and_ either test/unit or minitest assertions
+  * test/unit assertions
+  * minitest assertions
+  * any combination of the above libraries
 
   Note that when you do not use rspec-expectations, you must explicitly provide
   a description to every example. You cannot rely on the generated descriptions
