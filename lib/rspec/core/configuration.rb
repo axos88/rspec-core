@@ -501,8 +501,8 @@ module RSpec
       #     config.expect_with :rspec, :minitest
       #     config.expect_with OtherExpectationFramework
       #
-      # RSpec will translate `:rspec` and `:min` into the appropriate
-      # modules.
+      # RSpec will translate `:rspec`, `:minitest`, and `:test_unit` into the
+      # appropriate modules.
       #
       # ## Configuration
       #
